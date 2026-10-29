@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>בגינה</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>בגינה</h1>
+
+  <p>מיצי קפצה מהחלון אל הגינה. השמש חיממה את הדשא, פרפר צהוב ריחף מעל הפרחים, ומהמרפסת של השכן עלה ריח של פיצה מאתמול.</p>
+
+  <p>"כל כך הרבה דברים לטעום," חשבה מיצי. "במה להתחיל?"</p>
+
+  <h2>בחרו מה מיצי תטעם:</h2>
+
+  <!-- דרישה: iframe להצגת הסתעפות בסיפור.
+       לכל קישור יש target="taste", שזה ה-name של ה-iframe,
+       ולכן הדף נפתח בתוך המסגרת ולא במקום הדף כולו -->
+  <ul class="menu">
+    <li><a href="butterfly.html" target="taste">הפרפר הצהוב</a></li>
+    <li><a href="grass.html" target="taste">הדשא הירוק</a></li>
+    <li><a href="pizza.html" target="taste">הפיצה של השכן</a></li>
+  </ul>
+
+  <iframe src="garden-start.html" name="taste" title="מה מיצי טועמת"></iframe>
+
+  <p>אחרי כל הטעימות האלה, מיצי פיהקה פיהוק גדול. הגיע הזמן לחזור הביתה.</p>
+
+  <!-- דרישה א: השהייה בקריאה -->
+  <a class="next" href="end.html">המשך לקרוא ←</a>
+
+</body>
+</html>

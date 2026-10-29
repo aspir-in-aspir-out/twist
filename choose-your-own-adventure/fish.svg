@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <rect width="200" height="200" rx="20" fill="#e8f4fb"/>
+  <!-- plate -->
+  <ellipse cx="100" cy="132" rx="82" ry="30" fill="#ffffff" stroke="#b9d4e3" stroke-width="4"/>
+  <ellipse cx="100" cy="128" rx="60" ry="18" fill="#f4f9fc"/>
+  <!-- tail -->
+  <polygon points="138,112 178,84 178,140" fill="#e98a86"/>
+  <!-- fish body -->
+  <ellipse cx="95" cy="112" rx="52" ry="25" fill="#f4a3a0"/>
+  <path d="M88 92 Q98 112 88 132 M108 90 Q118 112 108 134" stroke="#e98a86" stroke-width="3" fill="none"/>
+  <polygon points="90,88 112,70 118,90" fill="#e98a86"/>
+  <!-- eye and mouth -->
+  <circle cx="64" cy="106" r="6" fill="#fff"/>
+  <circle cx="63" cy="106" r="3.5" fill="#3b2a1a"/>
+  <path d="M44 116 Q50 120 56 116" stroke="#3b2a1a" stroke-width="2" fill="none" stroke-linecap="round"/>
+</svg>
