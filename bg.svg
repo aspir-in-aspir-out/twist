@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <rect width="120" height="120" fill="#d8f3dc"/>
+  <!-- leaf -->
+  <path d="M20 40 q14 -26 30 -10 q-14 22 -30 10 z" fill="#95d5b2"/>
+  <path d="M22 38 l24 -8" stroke="#52b788" stroke-width="2"/>
+  <!-- flower -->
+  <g transform="translate(88 30)">
+    <circle cx="0" cy="-8" r="6" fill="#ffafcc"/>
+    <circle cx="8" cy="0" r="6" fill="#ffafcc"/>
+    <circle cx="0" cy="8" r="6" fill="#ffafcc"/>
+    <circle cx="-8" cy="0" r="6" fill="#ffafcc"/>
+    <circle cx="0" cy="0" r="5" fill="#ffd166"/>
+  </g>
+  <!-- small sun dots -->
+  <circle cx="30" cy="95" r="5" fill="#ffd166"/>
+  <circle cx="100" cy="100" r="3" fill="#a2d2ff"/>
+  <!-- small leaf -->
+  <path d="M70 85 q8 -16 18 -6 q-8 12 -18 6 z" fill="#b7e4c7"/>
+</svg>
